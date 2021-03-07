@@ -1,0 +1,25 @@
+body,
+p {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+  height: 100vh;
+}
+
+header {
+  background-color: rgb(253, 101, 101);
+}
+
+main {
+  background-color: rgb(247, 236, 223);
+}
+
+footer {
+  background-color: rgb(39, 128, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
